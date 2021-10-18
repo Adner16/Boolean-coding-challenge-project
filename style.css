@@ -1,0 +1,73 @@
+body{
+  background-image: url(background.jpg);
+  background-size:cover;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+.background{
+background: rgba(0, 0, 0, 0.5);
+width: 900px;
+height: 630px;
+margin: auto;
+margin-top:50px;
+border-radius: 20px;
+}
+
+header{
+  color:rgba(0,221,0,255);
+  text-align: center;
+  height: 220px;
+}
+header > h1{
+  margin: 5px;
+}
+.tasti{
+  background-color: rgba(0,221,0,255);
+  padding: 10px;
+  width: 700px;
+  margin:auto;
+}
+img{
+  width: 180px;
+  padding-top: 50px;
+  }
+
+.ricerca{
+  width: 730px;
+  height: 350px;
+  margin: auto;
+  padding-top: 30px;
+  color: white;
+}
+.ricerca > p {
+  margin: 7px;
+  font-size: 13px;
+}
+.ricerca > span {
+  font-weight: bold;
+  font-size: 18px
+}
+
+#carica1{
+  color: rgba(245,180,83,255);
+  background-color: rgba(245,180,83,255);
+  width: 250px;
+  opacity: 0.95;
+  border-radius: 4px;
+}
+
+#carica2{
+  color: rgba(91,196,49,255);
+  background-color: rgba(91,196,49,255);
+  width: 400px;
+  opacity: 0.95;
+  border-radius: 4px;
+}
+
+#carica3{
+  color: rgba(190,65,65,255);
+  background-color: rgba(190,65,65,255);
+  width: 150px;
+  opacity: 0.95;
+  border-radius: 4px;
+}
